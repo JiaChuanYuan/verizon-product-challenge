@@ -1,0 +1,24 @@
+{
+	"name": "HomeKnow",
+	"version": "1.0",
+	"author": "Team Veri5",
+	"description": "An extension that helps identify compatabilities between IoT devices in Amazon carts.",
+	"permissions": ["storage", "declarativeContent", "activeTab"],
+	"page_action": {
+		"default_icon": "homeknowicon-on-128.png",
+		"default_title": "HomeKnow",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": false
+	},
+	"content_scripts": [{
+		"matches": ["*://*.amazon.com/gp/cart/*"],
+		"js": ["content.js"],
+		"run_at": "document_idle"
+	}],
+	"manifest_version": 2
+}

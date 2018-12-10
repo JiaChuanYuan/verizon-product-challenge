@@ -1,0 +1,33 @@
+{
+
+    "Amazon Echo, Philips Hue": 1,
+
+    "Amazon Echo, Ring Doorbell": 0,
+
+    "Amazon Echo, Nest Thermostat": 1,
+
+    "Amazon Echo, Ecobee Thermostat": 1,
+
+    "Amazon Echo, Sonos Speaker": 1,
+
+    "Google Home, Philips Hue": 1,
+
+    "Google Home, Ring Doorbell": 1,
+
+    "Google Home, Nest Thermostat": 1,
+
+    "Google Home, Ecobee Thermostat": 1,
+
+    "Google Home, Sonos Speaker": 1,
+
+    "Samsung SmartThings, Philips Hue": 1,
+
+    "Samsung SmartThings, Ring Doorbell": 1,
+
+    "Samsung SmartThings, Nest Thermostat": 0,
+
+    "Samsung SmartThings, Ecobee Thermostat": 1,
+
+    "Samsung SmartThings, Sonos Speaker": 0
+
+}
